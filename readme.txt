@@ -80,7 +80,6 @@ So, the core principle of this technique is to choose sets of 12 bits to assume 
  So far I've found a set of 27 choices, but smaller sets may exist.
  
 
-
-
+NB: The golay code used in the implementation uses a different matrix than the readme, so the examples here won't work there but some bit-permutation of them should.
 
 
