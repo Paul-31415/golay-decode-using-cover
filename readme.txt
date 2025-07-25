@@ -76,6 +76,7 @@ example: 0x1239E6
 So, the core principle of this technique is to choose sets of 12 bits to assume as correct, then compute the other bits from those 12, and check the hamming distance to the message.
  If it is 3 or less, the errors are found.
  So, what is needed is the smallest set of choices of 12 bits such that for any combination of 3 bits, there is a choice in the set which chooses none of them.
+  i.e. a cover C of {v in [0,1]^23 | popcount(v) <= 3} where each element of C is in { {v in [0,1]^23 | v & c = v} for c in {v in [0,1]^23 | popcount(v) = 23 - 12} }
  So far I've found a set of 27 choices, but smaller sets may exist.
  
 
