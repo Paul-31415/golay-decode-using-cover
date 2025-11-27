@@ -1,5 +1,5 @@
 a method for correcting errors in golay code using covers
-(came up with this several years ago (around 2020?) but forgot to put it online until now)
+(came up with this several years ago (around 2023?) but forgot to put it online until now)
 
 
 background theory:
