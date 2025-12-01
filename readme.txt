@@ -4,10 +4,10 @@ a method for correcting errors in golay code using covers
 
 background theory:
 The golay code encodes 12 data bits in 23 message bits in such a way that every pair of valid messages has a hamming distance of at least 7.
-This allows either all possible errors of up to 7 message bits to be detected or all possible errors of up to 3 message bits to be corrected.
+This allows either all possible errors of up to 6 message bits to be detected or all possible errors of up to 3 message bits to be corrected.
 (in this context an error is when a 0 is received as a 1 or a 1 as a 0, (binary error channel, not binary erasure channel))
 
-The extended golay code is golay with a parity bit appended. This lets it additionally detect (but not correct) 4 bit errors when used as forward-error-correction, or detect up to 8 bit errors when used for error detection.
+The extended golay code is golay with a parity bit appended. This lets it additionally detect (but not correct) 4 bit errors when used as forward-error-correction, or detect up to 7 bit errors when used for error detection.
 
 extended golay code can be generated with this matrix:
                          1 1 1 1 1 1 1 1 1 1 2 2 2 2
